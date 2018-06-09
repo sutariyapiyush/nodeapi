@@ -1,0 +1,30 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js -e=dev",
+    "local": "node server.js",
+    "stag": "node server.js -e=stag",
+    "prod": "node server.js -e=prod"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "cookie-parser": "~1.0.1",
+    "cors": "*",
+    "debug": "~0.7.4",
+    "dotenv": "^4.0.0",
+    "express": "~4.0.0",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.13",
+    "morgan": "~1.0.0",
+    "node-async-loop": "^1.2.2",
+    "randomstring": "^1.1.5",
+    "static-favicon": "~1.0.0",
+    "yargs": "^9.0.1"
+  }
+}
